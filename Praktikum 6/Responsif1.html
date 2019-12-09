@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<title>Menggunakan Media Query CSS3</title>
+	<style>
+		/**Pengaturan default display none **/
+		.smartphone {
+			display: none;
+		}
+		/** Media query untuk smartphone 375px **/
+		@media only screen and (max-width: 375px){
+			body {
+				background-color: yellow;
+			}
+			.smartphone {
+				display: block;
+			}
+		}
+
+	</style>
+</head>
+<body>
+<h3>Menggunakan Media Query CSS3</h3>
+<div class="smartphone">
+	<h2>Terdetekai ukuran smartphone</h2>
+	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h3>
+</div>
+</body>
+</html>

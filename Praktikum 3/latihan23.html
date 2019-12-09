@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Registrasi</title>
+</head>
+<body>
+<form action="contact.php" method="POST">
+<fieldset>
+<legend>Asuransi</legend>
+<p>
+<label>Tipe asuransi:</label>
+<label><input type="radio" name="tipe" value="biasa" />
+Biasa</label>
+<label><input type="radio" name="tipe" value="premium" />
+Premium</label>
+</p>
+<p>
+<label>Premi:</label>
+<select name="premi">
+<option value="12">Per tahun</option>
+<option value="6">Per 6 bulan</option>
+<option value="3">Per 3 bulan</option>
+<option value="1">Per 1 bulan</option>
+</select>
+</p>
+<p>
+<label>Keterangan:</label>
+<textarea name="keterangan"></textarea>
+</p>
+<p>
+
+<input type="submit" name="submit" value="Daftar" />
+</p>
+</fieldset>
+</form>
+</body>
+</html>
